@@ -1,16 +1,19 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from "../layouts/IndexLayout.astro";
 import Navbar from "../components/Navbar.astro";
-import Container from "../layouts/Container.astro";
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="inQoute">
-  <Container>
+  <div class="max-w-5xl mx-auto flex flex-col h-[100vh]">
     <Navbar />
-    <h1>AHMAD SAMAN</h1>
-  </Container>
+    <div class="flex">
+      <Card />
+    </div>
+  </div>
 </Layout>
 
+<!-- Import Font -->
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
 </style>
