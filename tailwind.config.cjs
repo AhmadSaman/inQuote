@@ -9,6 +9,9 @@ module.exports = {
     boxShadow: {
       cardShadow: "0px 0px 30px 1px rgba(68,68,68,0.25)",
     },
+    colors: {
+      atomic: "#FFFDF6",
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
